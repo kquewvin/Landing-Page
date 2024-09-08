@@ -91,7 +91,7 @@ button a {
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .info-items {
@@ -114,4 +114,70 @@ button a {
     font-size: 12px;
     text-align: center;
     color: #1f2937;
+}
+
+/* QUOTE SECTION */
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    background: #e5e7eb;
+}
+
+.quote {
+    max-width: 600px;
+}
+
+.quote p {
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.quote-author p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* CALL TO ACTION */
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background: #3882f6;
+    padding: 25px 100px;
+    border-radius: 5px;
+
+}
+
+.action-text {
+    color: #e5e7eb;
+}
+
+.action-subtext {
+    font-size: 12px;
+}
+
+.action button {
+    border: #f9faf8 1px solid;
+}
+
+.action button a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
